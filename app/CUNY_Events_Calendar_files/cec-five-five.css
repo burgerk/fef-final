@@ -1,0 +1,227 @@
+/*
+Extra style defs for the CUNY Events Calendar
+*/
+
+.cec-h1 {
+	 margin: 15px 0 8px;
+	 color: #1D3A83;
+}
+.cec-h1_detailtitle {
+	 font-size: 22px; 
+	 margin: 5px 0 25px;
+	 color: #1D3A83;
+}
+
+
+/*
+ font-weight: bold;
+    margin: 15px 0 8px;
+    text-transform: uppercase;
+    text-rendering: optimizelegibility;
+    font-size: 18px;
+    line-height: 27px;
+
+
+*/
+
+#calendar-table td {
+    padding: 7px;
+}
+div.pagination {
+	text-align:center;
+	padding: 15px;
+	
+	
+}
+div.pagination a {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #AAAADD;
+	
+	text-decoration: none; 
+	color: #000099;
+}
+div.pagination a:hover, div.pagination a:active {
+	border: 1px solid #000099;
+
+	color: #000;
+}
+div.pagination span.current {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+		border: 1px solid #000099;
+		
+		font-weight: bold;
+		background-color: #000099;
+		color: #FFF;
+	}
+	div.pagination span.disabled {
+		padding: 2px 5px 2px 5px;
+		margin: 2px;
+		border: 1px solid #EEE;
+	
+		color: #DDD;
+	}
+#wrap-content{
+	margin-top:30px;
+}
+#wrap-content li {
+	list-style: none;
+	list-style-image: none;
+} 
+
+#wrap-content li.cec-list {
+	padding:20px;
+	margin:5px;
+	overflow: auto;
+}
+li.box.box-smoke.cec-list div{
+	overflow: hidden;
+} 
+.cec-list-img {
+	float: right;
+	margin-top:5px;
+  	padding-left: 15px;
+  	padding-bottom: 15px;
+}
+
+
+#cec-detail-left-col {
+    width: 250px;
+}
+
+
+h2.cuny-section-header, .cec-no-arrow-link {
+	margin-top: 20px;
+	@media screen and (max-width:779px){
+		.cec-no-arrow-link {
+			margin-top: 0px;
+		}
+	}
+}
+/*
+@media screen and (min-width:780px){
+		.cec-no-arrow-link {
+			margin-top: 30px;
+		}
+	}
+*/
+.cec-no-arrow-link a:hover {
+    background-color:#005daa;
+	color:#FFF;
+	padding: 2px;
+
+}
+
+
+.cec-no-arrow-link a:after {
+ 	color:#FE8807;
+    content:"";
+    background-color:#005daa;
+	color:#FFF;
+}
+
+.event-img {
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+
+.addthis_inline_share_toolbox, .at-share-btn-elements {
+	margin-left: 0;
+	margin-bottom: 15px !important;
+}
+
+
+.cec-toggle-pending-on {
+	background-color: #E3E3E3;
+}
+
+.cec-background-orange {
+	background-color: #FE8807;
+}
+
+.cec-toggle-button {
+}
+
+ h2[class^="cuny-section-header"], 
+ h2[class^="cec-toggle-"],  
+ input[class*="cec-toggle-"],
+ .cec-rotating-imgs {
+	text-align: center;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+
+
+
+
+.cuny-section-subheader {
+ 	background-color: #005daa; 
+ 	color: #FFF; 
+ 	padding: 5px 15px;
+	text-align: center;
+ 	margin-left: 5px;
+ 	margin-right: 5px;
+}
+
+.cec-rotating-imgs {
+    background:#F0F1F1; /* light-blue=#005daa gray=#F0F1F1; */
+    border-color: red;
+    overflow: hidden;
+	/* border: 1px solid #000099; */
+ }
+ 
+ div.cec-rotating-imgs img {
+ 	 margin-top: 12px;
+ 	 margin-bottom: 12px;
+ }
+ 
+ .cec-rotate-img-left {
+ 	float: left;
+ 	margin-left: 11px;
+ 	margin-right: 5px;
+ }
+
+
+ .cec-rotate-img-right {
+ 	float: right;
+ 	margin-left: 5px;
+ 	margin-right: 11px;
+ }
+
+
+.wpb_row .vc_col-sm-4 {
+	width: 25.333% !important;
+}
+
+
+@media screen and (max-width:1079px){
+	.cec-rotating-imgs {
+		display:none;
+	}
+	.cec-titles-rotation {
+		margin-bottom: 0px;
+	}
+	#role-nav-content li:last-child {
+		display: none;
+	}
+}
+
+}
+
+@media screen and (min-width:780px) {
+	h3.c-and-s-select, select.colleges-select {
+        display: none;
+    }
+}
+
+@media screen and (max-width:779px){
+	h3.c-and-s-ul, .colleges-ul {
+        display : none;
+    }
+    .colleges-select {
+        margin-bottom : 50px;
+        display: block;
+    }
+}
