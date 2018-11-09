@@ -1,7 +1,7 @@
 {
-  "name": "session7",
+  "name": "Paul K Front End Foundations Final",
   "version": "1.0.0",
-  "description": "CSS for CUNY Events calendar",
+  "description": "CSS for CUNY Events calendar, as part of NYUSPS Front-End Foundations",
   "main": "index.js",
   "scripts": {
     "sassy": "node-sass --watch \"scss\" --output \"app/css\" --recursive --source-map true",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/front-end-foundations/session7.git"
+    "url": "git+https://github.com/burgerk/fef-final.git"
   },
   "keywords": [],
   "author": "",
@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/front-end-foundations/session7/issues"
   },
-  "homepage": "https://github.com/front-end-foundations/session7#readme",
+  "homepage": "https://github.com/burgerk/fef-final/#readme",
   "devDependencies": {
     "browser-sync": "^2.26.3",
     "concurrently": "^4.0.1",
