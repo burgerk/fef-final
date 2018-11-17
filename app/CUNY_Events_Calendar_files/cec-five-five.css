@@ -93,12 +93,13 @@ li.box.box-smoke.cec-list div{
 
 h2.cuny-section-header, .cec-no-arrow-link {
 	margin-top: 20px;
-	@media screen and (max-width:779px){
-		.cec-no-arrow-link {
-			margin-top: 0px;
-		}
+}
+@media screen and (max-width:779px){
+	.cec-no-arrow-link {
+		margin-top: 30px;
 	}
 }
+
 /*
 @media screen and (min-width:780px){
 		.cec-no-arrow-link {
@@ -140,8 +141,7 @@ h2.cuny-section-header, .cec-no-arrow-link {
 	background-color: #FE8807;
 }
 
-.cec-toggle-button {
-}
+
 
  h2[class^="cuny-section-header"], 
  h2[class^="cec-toggle-"],  
@@ -196,7 +196,7 @@ h2.cuny-section-header, .cec-no-arrow-link {
 }
 
 
-@media screen and (max-width:1079px){
+@media screen and (max-width: 1079px){
 	.cec-rotating-imgs {
 		display:none;
 	}
@@ -208,20 +208,22 @@ h2.cuny-section-header, .cec-no-arrow-link {
 	}
 }
 
-}
-
-@media screen and (min-width:780px) {
-	h3.c-and-s-select, select.colleges-select {
+/* hide select */
+@media screen and (min-width: 780px) {
+	.colleges-list-header, .colleges-select {
         display: none;
     }
 }
 
-@media screen and (max-width:779px){
+@media screen and (max-width: 779px){
 	h3.c-and-s-ul, .colleges-ul {
-        display : none;
+        display: none;
     }
     .colleges-select {
         margin-bottom : 50px;
         display: block;
-    }
+	}
+	.colleges-list {
+		display: none;
+	}
 }
