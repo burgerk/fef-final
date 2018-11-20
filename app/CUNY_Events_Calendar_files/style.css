@@ -7,6 +7,8 @@ Version: 2.4.11
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
+
+
 -----------------------------------------------------------------------------
 Table of Contents
 -----------------------------------------------------------------------------
@@ -15,7 +17,8 @@ Table of Contents
 2.  Global Properties
 		2.1  Grid System
     2.2  WordPress
-    2.3  Fonts
+		2.3  Fonts
+		
 
 3.  Basic Structure
     3.1  Headings
@@ -239,7 +242,7 @@ section {
     width: 100% !important;
 }
 .full-width .wpb_row{
-  width:1025px !important;
+  width: 1025px !important;
 }
 .full-width p{
 	padding-bottom:0;
@@ -297,7 +300,8 @@ sup{
 	margin-right:auto !important;
 	/*overflow:hidden;*/
 	margin-bottom:0;
-	width:1025px;
+	/*width:1025px;*/
+	width: 95%;
 /*07-16*/
 /*	padding-left:2.829%;
 	padding-right:2.829%;*/
@@ -2169,7 +2173,7 @@ div.nchgrid-item.nch-lightbox-youtube a .nchgrid-caption, div.ts-hover-youtube .
 }
 #role-nav{
 	clear:right;
-	float:right;
+	/* float:right; */
 	margin-left:0;
 	margin-top:30px;
 }

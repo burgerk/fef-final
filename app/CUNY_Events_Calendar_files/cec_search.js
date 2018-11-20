@@ -8,13 +8,7 @@ cec_obj = { 'site_url':'http://localhost:3000'};
 var site_url = cec_obj.site_url; 
 console.log ('cec_obj.site_url == ' + cec_obj.site_url );
 
-//search
-//<div class='wpb_wrapper'><p><form role="search" method="get" id="searchform" class="searchform" name="CUNY_search_form" action="//events.cuny.edu/">
-var searchForm = document.querySelector('#searchform').addEventListener('click', function (event) { 
-    event.preventDefault();
-});
-
-
+//college filter 
 document.querySelector('.colleges-select').addEventListener('change', function(e) {
     var ele = e.target;
      console.log(e.target);
@@ -43,14 +37,6 @@ function CUNY_event_search_submit(e) {
       }
     return false;
   }
-
-
-
-
-
-
-
-
 
 
   /*
